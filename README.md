@@ -1,6 +1,21 @@
+# [Sudoku Solver](https://github.com/borisTL/PythonProjectHub/blob/main/Sydoku_slover.py)
+
+
+This project implements a backtracking algorithm to solve a Sudoku puzzle. The `Board` class represents the Sudoku board and includes methods to validate moves, find empty cells, and recursively solve the puzzle. The `solve_sudoku` function initializes the board and displays the puzzle before and after solving it.
+
+## Features
+- **Board Representation**: The board is represented as a 9x9 grid, where empty cells are denoted by `0`.
+- **Validation Functions**: 
+  - `valid_in_row`, `valid_in_col`, and `valid_in_square` ensure that each guess is valid based on the Sudoku rules.
+- **Backtracking Solver**:
+  - The solver uses a recursive backtracking approach to fill the board cell by cell, testing numbers from 1 to 9.
+  - If an invalid guess is found, the solver backtracks and tries a new number.
+- **Solver Output**: 
+  - Displays the initial puzzle and the solved puzzle if a solution exists.
+  - If the puzzle is unsolvable, the function will inform the user.
+ ---
+    
 # [Budget Tracker](https://github.com/borisTL/PythonProjectHub/blob/main/Build%20a%20Budget%20App%20Project.py)
-
-
 This project is a simple budget management system with spending categories. It includes a `Category` class that allows you to track deposits, withdrawals, and transfers >between categories. The project also features a function to create a chart displaying the distribution of spending.
 
  Features
